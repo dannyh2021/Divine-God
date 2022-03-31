@@ -1,0 +1,978 @@
+{
+    "bank": "<:bankRyo:955245305622831144>",
+    "bulletin": "<:bulletin:955110889244213248>",
+    "check": "<:check:955834256083542056>",
+    "critical": "<:critical:956646463029518376>",
+    "currency": "<:ryo:954216932847022140>",
+    "rank": "<:rank:955110863646375976>",
+    "shuriken": "<:shuriken:954816555961700372>",
+    "star": "<:star:954360098434719795>",
+    "title": "<:title:955110878540345424>",
+    "typing": "<a:typing:954227464777912340>",
+    "rewards": {
+        "lbRole": "954235393136533536",
+        "lbLeader": "732675898104479826"
+    },
+    "weekly": {
+        "description": "Send **5,000** messages in the server.",
+        "status": "on",
+        "expiration": 1648772926698,
+        "message": "956711161024352296",
+        "xpAward": 5000,
+        "ryoAward": 15000
+    },
+    "drops": {
+        "dropRate": 50,
+        "channels": [
+            {
+                "id": "954188506585002004",
+                "dropRate": "100"
+            },
+            {
+                "id": "954358457472024616",
+                "dropRate": "25"
+            }
+        ],
+        "blacklist": [
+            "949126733460820038",
+            "948184657260859422",
+            "844275582203592744",
+            "947984381006471218",
+            "815381537293860904",
+            "815769881340411954",
+            "909004910274686986",
+            "815770045439410186",
+            "815383787902599188",
+            "954361032841764906",
+            "955593550949654548"
+        ]
+    },
+    "shop": {
+        "balanceWallpaper": [
+            {
+                "name": "sakura haruno",
+                "link": "https://i.ibb.co/ZfzSCpS/Balance-Wallpaper-Sakura.png",
+                "text": "[Sakura Haruno](https://i.ibb.co/ZfzSCpS/Balance-Wallpaper-Sakura.png)",
+                "price": 8000
+            },
+            {
+                "name": "naruto uzumaki",
+                "link": "https://i.ibb.co/stSL0mc/Balance-Wallpaper-Naruto.png",
+                "text": "[Naruto Uzumaki](https://i.ibb.co/stSL0mc/Balance-Wallpaper-Naruto.png)",
+                "price": 10000
+            },
+            {
+                "name": "sasuke uchiha",
+                "link": "https://i.ibb.co/4Zt4Q9P/Balance-Wallpaper-Sasuke.png",
+                "text": "[Sasuke Uchiha](https://i.ibb.co/4Zt4Q9P/Balance-Wallpaper-Sasuke.png)",
+                "price": 10000
+            },
+            {
+                "name": "minato namikaze",
+                "link": "https://i.ibb.co/z2kzdjh/Balance-Wallpaper-Minato.png",
+                "text": "[Minato Namikaze](https://i.ibb.co/z2kzdjh/Balance-Wallpaper-Minato.png)",
+                "price": 12000
+            }
+        ],
+        "role": [
+            {
+                "name": "byakugan",
+                "id": "957280338122518578",
+                "description": "Claim **30-50** ryo every **2 hours**",
+                "price": 3000
+            },
+            {
+                "name": "sharingan",
+                "id": "957280324746883083",
+                "description": "Claim **50-75** ryo every **2.5 hours**",
+                "price": 5000
+            },
+            {
+                "name": "mangekyo sharingan",
+                "id": "957280328223977532",
+                "description": "Claim **100-150** ryo every **6 hours**",
+                "price": 10000
+            },
+            {
+                "name": "eternal mangekyo sharingan",
+                "id": "957280341574430750",
+                "description": "Claim **150-250** ryo every **12 hours**",
+                "price": 15000
+            },
+            {
+                "name": "jogan",
+                "id": "957280344313311323",
+                "description": "Claim **250-350** ryo every **15 hours**",
+                "price": 25000
+            },
+            {
+                "name": "rinnegan",
+                "id": "957280331470372935",
+                "description": "Claim **350-500** ryo every **18 hours**",
+                "price": 30000
+            },
+            {
+                "name": "yin release",
+                "id": "957280335069061130",
+                "description": "Claim **500-750** ryo every **22 hours**",
+                "price": 40000
+            },
+            {
+                "name": "yang release",
+                "id": "957280348411166720",
+                "description": "Claim **500-750** ryo every **22 hours**",
+                "price": 40000
+            },
+            {
+                "name": "tenseigan",
+                "id": "957280351917600818",
+                "description": "Claim **750-1,000** ryo every **24 hours**",
+                "price": 50000
+            },
+            {
+                "name": "rinne sharingan",
+                "id": "957280403322978304",
+                "description": "Claim **1,000-1,500** ryo every **24 hours**",
+                "price": 60000
+            }
+        ],
+        "weapon": [
+            {
+                "name": "shuriken",
+                "link": "https://i.ibb.co/nfTb80f/Weapon-Shuriken.png",
+                "level": 3,
+                "power": 8,
+                "price": 2000
+            },
+            {
+                "name": "kunai",
+                "link": "https://i.ibb.co/ykLHR82/Weapon-Kunai.png",
+                "level": 8,
+                "power": 10,
+                "price": 5000
+            },
+            {
+                "name": "explosive kunai",
+                "link": "https://i.ibb.co/yscrz1K/Weapon-Explosive-Kunai.png",
+                "level": 12,
+                "power": 14,
+                "price": 8000
+            },
+            {
+                "name": "katana",
+                "link": "https://i.ibb.co/1MyHLmv/Weapon-Katana.png",
+                "level": 15,
+                "power": 19,
+                "price": 12000
+            },
+            {
+                "name": "chakra blades",
+                "link": "https://i.ibb.co/kQsfpVs/Weapon-Chakra-Blades.pngs",
+                "level": 19,
+                "power": 23,
+                "price": 16000
+            },
+            {
+                "name": "bladed claws",
+                "link": "https://i.ibb.co/2Z48Bdy/Weapon-Bladed-Claws.png",
+                "level": 25,
+                "power": 28,
+                "price": 20000
+            },
+            {
+                "name": "staff",
+                "link": "https://i.ibb.co/9ycwPMs/Weapon-Staff.png",
+                "level": 30,
+                "power": 35,
+                "price": 25000
+            },
+            {
+                "name": "demon wind shuriken",
+                "link": "https://i.ibb.co/gFxysM2/Weapon-Demon-Wind-Shuriken.png",
+                "level": 35,
+                "power": 40,
+                "price": 28000
+            },
+            {
+                "name": "wind fan",
+                "link": "https://i.ibb.co/HGYZ5Yr/Weapon-Wind-Fan.png",
+                "level": 38,
+                "power": 44,
+                "price": 31000
+            },
+            {
+                "name": "scythe",
+                "link": "https://i.ibb.co/9tJZ5nt/Weapon-Scythe.png",
+                "level": 42,
+                "power": 50,
+                "price": 35000
+            }
+        ]
+    },
+    "shinobi": {
+        "crank": [
+            {
+                "name": "Gato",
+                "image": "https://i.ibb.co/1qGyqWz/C-Rank-Gato.png",
+                "level": 3,
+                "health": 350,
+                "power": 15,
+                "xpAward": 200,
+                "ryoAward": 100,
+                "description": "Gato was a shipping magnate and founder of Gato Company. He also was secretly a drug dealer as well as the owner of a smuggling business and attemped to take control of the Land of Waves."
+            },
+            {
+                "name": "Mizuki",
+                "image": "https://i.ibb.co/2qhrX9k/C-Rank-Mizuki.png",
+                "level": 5,
+                "health": 450,
+                "power": 20,
+                "xpAward": 205,
+                "ryoAward": 105,
+                "description": "Mizuki is a chunin of Konohagakure and a former instructor at the Academy."
+            },
+            {
+                "name": "Zori",
+                "image": "https://i.ibb.co/b1pHRvg/C-Rank-Zori.png",
+                "level": 7,
+                "health": 550,
+                "power": 25,
+                "xpAward": 210,
+                "ryoAward": 115,
+                "description": "Zori is a samurai from Land of Waves. He and his partner, Waraji, were mercenaries hired by Gato to be his personal bodyguards."
+            },
+            {
+                "name": "Waraji",
+                "image": "https://i.ibb.co/fF90L6d/C-Rank-Waraji.png",
+                "level": 10,
+                "health": 700,
+                "power": 30,
+                "xpAward": 215,
+                "ryoAward": 125,
+                "description": "Waraji is a samurai from the Land of Waves. He and his partner Zori were mercenaries hired by Gato to be his personal bodyguards."
+            },
+            {
+                "name": "Shigure",
+                "image": "https://i.ibb.co/Vqbx4gL/C-Rank-Shigure.png",
+                "level": 15,
+                "health": 950,
+                "power": 45,
+                "xpAward": 225,
+                "ryoAward": 140,
+                "description": "Shigure was a genin from Amegakure and a member of Team Shigure."
+            },
+            {
+                "name": "Kagari",
+                "image": "https://i.ibb.co/SRW0gcR/C-Rank-Kagari.png",
+                "level": 18,
+                "health": 1100,
+                "power": 50,
+                "xpAward": 240,
+                "ryoAward": 155,
+                "description": "Kagari is a genin from Amegakure."
+            },
+            {
+                "name": "Mubi",
+                "image": "https://i.ibb.co/dp2Zwdb/C-Rank-Mubi.png",
+                "level": 20,
+                "health": 1200,
+                "power": 55,
+                "xpAward": 250,
+                "ryoAward": 170,
+                "description": "Mubi is a genin from Amegakure."
+            },
+            {
+                "name": "Gozu",
+                "image": "https://i.ibb.co/yFhhMfR/C-Rank-Gozu.png",
+                "level": 24,
+                "health": 1400,
+                "power": 65,
+                "xpAward": 260,
+                "ryoAward": 185,
+                "description": "Gozu is a shinobi from Otogakure and a member of Team Guren."
+            },
+            {
+                "name": "Meizu",
+                "image": "https://i.ibb.co/bKGkPdZ/C-Rank-Meizu.png",
+                "level": 25,
+                "health": 1450,
+                "power": 70,
+                "xpAward": 275,
+                "ryoAward": 220,
+                "description": "Meizu and with his twin brother Gozu were chunin of Kirigakure before defecting and becoming mercenaries alongside Zabuza Momochi."
+            },
+            {
+                "name": "Oboro",
+                "image": "https://i.ibb.co/5ksCFQq/C-Rank-Oboro.png",
+                "level": 28,
+                "health": 1600,
+                "power": 75,
+                "xpAward": 300,
+                "ryoAward": 250,
+                "description": "Oboro is a genin from Amegakure."
+            }
+        ],
+        "brank": [
+            {
+                "name": "Kin",
+                "image": "https://i.ibb.co/Lp0fCwq/B-Rank-Kin.png",
+                "level": 30,
+                "health": 2075,
+                "power": 105,
+                "xpAward": 300,
+                "ryoAward": 250,
+                "description": "Kin Tsuchi was a kunoichi from Otogakure and a member of Team Dosu which took part in the Chunin Exams under orders from Orochimaru to test Sasuke Uchiha's skills."
+            },
+            {
+                "name": "Zaku",
+                "image": "https://i.ibb.co/dMbJL1R/B-Rank-Zaku.png",
+                "level": 31,
+                "health": 2175,
+                "power": 110,
+                "xpAward": 310,
+                "ryoAward": 265,
+                "description": "Zaku Abumi was a shinobi from Otogakure and a member of Team Dosu, which took part in the Chūnin Exams under covert orders from Orochimaru."
+            },
+            {
+                "name": "Dosu",
+                "image": "https://i.ibb.co/1277Gms/B-Rank-Dosu.png",
+                "level": 32,
+                "health": 2250,
+                "power": 115,
+                "xpAward": 315,
+                "ryoAward": 275,
+                "description": "Dosu Kinuta was a shinobi of Otogakure and also the unofficial leader of Team Dosu. He participated in the Chūnin Exams under covert orders from Orochimaru."
+            },
+            {
+                "name": "Jirobo",
+                "image": "https://i.ibb.co/GTrXMdF/B-Rank-Jirobo.png",
+                "level": 35,
+                "health": 2550,
+                "power": 125,
+                "xpAward": 350,
+                "ryoAward": 300,
+                "description": "Jirōbō was a shinobi of Otogakure and a member of the Sound Four."
+            },
+            {
+                "name": "Tayuya",
+                "image": "https://i.ibb.co/MCQFYBt/B-Rank-Tayuya.png",
+                "level": 37,
+                "health": 2750,
+                "power": 135,
+                "xpAward": 360,
+                "ryoAward": 305,
+                "description": "Tayuya was a kunoichi of Otogakure and a member of the Sound Four."
+            },
+            {
+                "name": "Sakon",
+                "image": "https://i.ibb.co/wcRwVww/B-Rank-Sakon.png",
+                "level": 38,
+                "health": 2850,
+                "power": 140,
+                "xpAward": 370,
+                "ryoAward": 310,
+                "description": "Sakon and his older brother Ukon were twin brothers from Otogakure and the apparent leader(s) of the Sound Four."
+            },
+            {
+                "name": "Kidomaru",
+                "image": "https://i.ibb.co/wK5LYtD/B-Rank-Kidomaru.png",
+                "level": 40,
+                "health": 3050,
+                "power": 150,
+                "xpAward": 375,
+                "ryoAward": 315,
+                "description": "Kidōmaru was a shinobi from Otogakure and a member of the Sound Four."
+            },
+            {
+                "name": "Kabuto",
+                "image": "https://i.ibb.co/mqVLPz4/B-Rank-Kabuto.png",
+                "level": 43,
+                "health": 3350,
+                "power": 165,
+                "xpAward": 400,
+                "ryoAward": 340,
+                "description": "Kabuto Yakushi spent most of his life as a spy working for many different individuals, organisations, and countries. His natural talents in intelligence-gathering and medicine attracted the attention of Orochimaru when he was younger, who made Kabuto his right-hand man. Although Kabuto learns much about the world under Orochimaru, he eventually decides that his life of serving others has prevented him from making an identity for himself. He thereafter seeks power and becomes a major factor in the Fourth Shinobi World War, using his higher place in the world so that he can find where in it he belongs. After finally finding himself in the world, Kabuto returns to Konohagakure to run the orphanage there, helping others such as himself to find their own way."
+            },
+            {
+                "name": "Zabuza",
+                "image": "https://i.ibb.co/WyWk4VQ/B-Rank-Zabuza.png",
+                "level": 47,
+                "health": 3700,
+                "power": 180,
+                "xpAward": 450,
+                "ryoAward": 385,
+                "description": "Zabuza Momochi, given the moniker Demon of the Hidden Mist, was a missing-nin from Kirigakure's Seven Ninja Swordsmen of the Mist."
+            },
+            {
+                "name": "Haku",
+                "image": "https://i.ibb.co/1zsb9VB/B-Rank-Haku.png",
+                "level": 49,
+                "health": 4000,
+                "power": 195,
+                "xpAward": 500,
+                "ryoAward": 400,
+                "description": "Haku was an orphan from the Land of Water, and a descendant of the Yuki clan. He later became a shinobi under Zabuza Momochi's tutelage whom he later partnered with, ultimately becoming a Mercenary Ninja."
+            }
+        ],
+        "arank": [
+            {
+                "name": "Jugo",
+                "image": "https://i.ibb.co/rp3NfpR/A-Rank-Jugo.png",
+                "level": 53,
+                "health": 5500,
+                "power": 280,
+                "xpAward": 500,
+                "ryoAward": 400,
+                "description": "Jūgo is a shinobi from an unnamed clan, who was being held at Orochimaru's Northern Hideout. He was said to have gone to Orochimaru of his own free will, hoping that Orochimaru would cure him of his rages. He was later recruited as a member of Sasuke Uchiha's group Taka, which was initially called \"Hebi\" at the time of its creation."
+            },
+            {
+                "name": "Kimimaro",
+                "image": "https://i.ibb.co/vQJDzrL/A-Rank-Kimimaro.png",
+                "level": 57,
+                "health": 6250,
+                "power": 315,
+                "xpAward": 520,
+                "ryoAward": 425,
+                "description": "Kimimaro was the sole survivor of the Kaguya clan. Upon dedicating his life to Orochimaru, he became the leader of the formerly-named Sound Five, until he fell ill, which forced him to leave the group."
+            },
+            {
+                "name": "Suigetsu",
+                "image": "https://i.ibb.co/8K0d9fz/A-Rank-Suigetsu.png",
+                "level": 60,
+                "health": 6800,
+                "power": 340,
+                "xpAward": 535,
+                "ryoAward": 440,
+                "description": "Suigetsu Hōzuki is a shinobi from Kirigakure's Hōzuki clan. Heralded as the Second Coming of the Demon, Suigetsu dreams of gathering all the swords of the Seven Ninja Swordsmen of the Mist. This dream was cut short when he was captured by Orochimaru, but by joining forces with Sasuke Uchiha he finds an opportunity to resume his pursuit."
+            },
+            {
+                "name": "Hanzo",
+                "image": "https://i.ibb.co/DWfmYjt/A-Rank-Hanzo.png",
+                "level": 70,
+                "health": 8600,
+                "power": 425,
+                "xpAward": 585,
+                "ryoAward": 470,
+                "description": "Hanzō, feared as Hanzō of the Salamander, was a legendary shinobi, and the leader of Amegakure during his lifetime."
+            },
+            {
+                "name": "Gengetsu",
+                "image": "https://i.ibb.co/km8Yw75/A-Rank-Gengetsu.png",
+                "level": 74,
+                "health": 9350,
+                "power": 455,
+                "xpAward": 625,
+                "ryoAward": 500,
+                "description": "Gengetsu Hōzuki was the Second Mizukage of Kirigakure. He was also a member of the Hōzuki clan."
+            },
+            {
+                "name": "Danzo",
+                "image": "https://i.ibb.co/fvqw8h4/A-Rank-Danzo.png",
+                "level": 78,
+                "health": 10000,
+                "power": 490,
+                "xpAward": 640,
+                "ryoAward": 525,
+                "description": "Danzō Shimura was an elder of Konohagakure. As the founder and leader of Root, Danzō gained notoriety as The Darkness of the Shinobi because of his frequent unsanctioned actions and his often-suspected undermining of specific Konoha personnel. Despite his decades of suspicious deeds, Danzō only ever acted in what he believed were the village's best interests. He was appointed the Sixth Hokage Candidate after Pain's assault on the village. Prior to being inaugurated officially into this post, Danzō would flee the Five Kage Summit and died in battle against Sasuke Uchiha at the Samurai Bridge."
+            },
+            {
+                "name": "Rasa",
+                "image": "https://i.ibb.co/LRjmgG6/A-Rank-Rasa.png",
+                "level": 82,
+                "health": 10750,
+                "power": 525,
+                "xpAward": 650,
+                "ryoAward": 560,
+                "description": "Rasa was the Fourth Kazekage of Sunagakure. Renowned for his ability to use Gold Dust, Rasa's reign as Kazekage was marked by his frequent quelling of rampages by the One-Tailed Shukaku, which he had sealed into his youngest son, Gaara."
+            },
+            {
+                "name": "Mu",
+                "image": "https://i.ibb.co/YLRTTBH/A-Rank-Mu.png",
+                "level": 85,
+                "health": 11250,
+                "power": 550,
+                "xpAward": 675,
+                "ryoAward": 585,
+                "description": "Mū was the Second Tsuchikage of Iwagakure. During his lifetime, Mū was renowned as the \"Non-Person\" due to his ability which left neither a physical form nor detectable chakra signature."
+            },
+            {
+                "name": "Ginkaku",
+                "image": "https://i.ibb.co/bL4p0Cv/A-Rank-Ginkaku.png",
+                "level": 94,
+                "health": 13000,
+                "power": 625,
+                "xpAward": 725,
+                "ryoAward": 620,
+                "description": "Ginkaku was one of Kumogakure's Gold and Silver Brothers alongside Kinkaku, who were the most notorious criminals in the history of their village."
+            },
+            {
+                "name": "Kinkaku",
+                "image": "https://i.ibb.co/X3hns5q/A-Rank-Kinkaku.png",
+                "level": 97,
+                "health": 14000,
+                "power": 650,
+                "xpAward": 750,
+                "ryoAward": 650,
+                "description": "Kinkaku was one of Kumogakure's infamous Gold and Silver Brothers, and a member of the Kinkaku Force."
+            }
+        ],
+        "srank": [
+            {
+                "name": "Zetsu",
+                "image": "https://i.ibb.co/kGY5Byc/S-Rank-White-Zetsu.png",
+                "level": 102,
+                "health": 20000,
+                "power": 850,
+                "xpAward": 750,
+                "ryoAward": 650,
+                "description": "White Zetsu was half of the Akatsuki member Zetsu, the other being Black Zetsu. He was one of the first victims of Kaguya Ōtsutsuki's Infinite Tsukuyomi, and was eventually pulled from the Demonic Statue of the Outer Path by Black Zetsu, and infused with the DNA of Hashirama Senju by Madara Uchiha."
+            },
+            {
+                "name": "Hidan",
+                "image": "https://i.ibb.co/D71Ls2C/S-Rank-Hidan.png",
+                "level": 108,
+                "health": 22500,
+                "power": 975,
+                "xpAward": 765,
+                "ryoAward": 675,
+                "description": "Hidan is an S-rank missing-nin who defected from Yugakure and later joined the Akatsuki. There, he was partnered with Kakuzu, despite the two's somewhat mutual dislike of each other. He was also the second newest member of Akatsuki at the time of Tobi's introduction. Kisame Hoshigaki laughingly referred to Hidan and Kakuzu as the Zombie Combo."
+            },
+            {
+                "name": "Sasori",
+                "image": "https://i.ibb.co/jwLr6gw/S-Rank-Sasori.png",
+                "level": 112,
+                "health": 24500,
+                "power": 1050,
+                "xpAward": 785,
+                "ryoAward": 685,
+                "description": "Sasori, renowned as Sasori of the Red Sand, was an S-rank missing-nin from Sunagakure's Puppet Brigade and a member of Akatsuki, where he was partnered with Orochimaru and later Deidara."
+            },
+            {
+                "name": "Deidara",
+                "image": "https://i.ibb.co/XXYZfpR/S-Rank-Deidara.png",
+                "level": 115,
+                "health": 26000,
+                "power": 1100,
+                "xpAward": 820,
+                "ryoAward": 700,
+                "description": "Deidara was an S-rank missing-nin from Iwagakure. During his time in the village, he was a member of the Explosion Corps. After defecting from the village, he was forced into Akatsuki and was its youngest member. There, Deidara was partnered with Sasori until the latter's death, and later with Tobi before his own death."
+            },
+            {
+                "name": "Kisame",
+                "image": "https://i.ibb.co/DKj2KLg/S-Rank-Kisame.png",
+                "level": 118,
+                "health": 27500,
+                "power": 1150,
+                "xpAward": 835,
+                "ryoAward": 715,
+                "description": "Kisame Hoshigaki , feared as the Monster of the Hidden Mist , was a shinobi of Kirigakure's Hoshigaki Clan. After joining the Seven Ninja Swordsmen of the Mist, he became an S-rank missing-nin and was partnered with Itachi Uchiha when the latter joined Akatsuki."
+            },
+            {
+                "name": "Konan",
+                "image": "https://i.ibb.co/FWx5NWy/S-Rank-Konan.png",
+                "level": 120,
+                "health": 28500,
+                "power": 1200,
+                "xpAward": 850,
+                "ryoAward": 740,
+                "description": "Konan was a kunoichi from Amegakure and a founding member of the original Akatsuki. After Yahiko's death, she was partnered with Nagato, who had since taken control of Akatsuki, and was the only member to call him by his name. After Nagato's death, Konan defected from Akatsuki and became the de facto village head of Amegakure."
+            },
+            {
+                "name": "Kakuzu",
+                "image": "https://i.ibb.co/1RbQv8T/S-Rank-Kakuzu.png",
+                "level": 122,
+                "health": 29500,
+                "power": 1250,
+                "xpAward": 865,
+                "ryoAward": 785,
+                "description": "Kakuzu was an S-rank missing-nin from Takigakure and a member of Akatsuki who was partnered with Hidan. Kisame Hoshigaki jokingly referred to them as the Zombie Combo, due to the fact that, in differing senses, they could not die."
+            },
+            {
+                "name": "Orochimaru",
+                "image": "https://i.ibb.co/9gbqd9P/S-Rank-Orochimaru.png",
+                "level": 126,
+                "health": 31650,
+                "power": 1325,
+                "xpAward": 890,
+                "ryoAward": 800,
+                "description": "Orochimaru is one of Konohagakure's legendary Sannin. With a life-ambition to learn all of the world's secrets, Orochimaru seeks immortality so that he might live all of the lives necessary to accomplish his task. After being caught red-handed performing unethical experiments on his fellow citizens for the sake of this immortality, Orochimaru defected from Konoha rather than be persecuted for his ambitions, and for many years sought the village's destruction in order to take revenge and demonstrate what he had learned. After several apparent deaths in the pursuit of his goals, Orochimaru realises his approach is flawed through Kabuto Yakushi, his former associate, and begins monitoring the choices and actions of his former apprentice, Sasuke Uchiha."
+            },
+            {
+                "name": "Itachi",
+                "image": "https://i.ibb.co/V9dBFG3/S-Rank-Itachi.png",
+                "level": 130,
+                "health": 33500,
+                "power": 1400,
+                "xpAward": 915,
+                "ryoAward": 815,
+                "description": "Itachi Uchiha was a shinobi of Konohagakure's Uchiha clan who served as an Anbu Captain. He later became an international criminal after murdering his entire clan, sparing only his younger brother, Sasuke. He afterwards joined the international criminal organisation known as Akatsuki, whose activity brought him into frequent conflict with Konoha and its ninja — including Sasuke who sought to avenge their clan by killing Itachi. Following his death, Itachi's motives were revealed to be more complicated than they seemed and that his actions were only ever in the interest of his brother and village, making him remain a loyal shinobi of Konohagakure to the very end."
+            },
+            {
+                "name": "Pain",
+                "image": "https://i.ibb.co/qR6x1Wr/S-Rank-Pain.png",
+                "level": 134,
+                "health": 35500,
+                "power": 1500,
+                "xpAward": 935,
+                "ryoAward": 840,
+                "description": "NO DATA"
+            },
+            {
+                "name": "Obito",
+                "image": "https://i.ibb.co/vVcNxKf/S-Rank-Obito.png",
+                "level": 140,
+                "health": 38500,
+                "power": 1600,
+                "xpAward": 950,
+                "ryoAward": 850,
+                "description": "Obito Uchiha was a member of Konohagakure's Uchiha clan. He was believed to have died during the Third Shinobi World War, his only surviving legacy being the Sharingan he gave to his teammate, Kakashi Hatake. In truth, Obito was saved from death and trained by Madara, but the events of the war left Obito disillusioned with reality, and he inherited Madara's plan to create an ideal world. Resurfacing under the names of Tobi and Madara Uchiha himself, Obito subtly took control of the Akatsuki, using them as a means to advance his machinations, eventually going public and starting the Fourth Shinobi World War. However, towards the war's conclusion, Obito had a change of heart and, as atonement, sacrificed his life to save the same world he sought to replace."
+            },
+            {
+                "name": "Madara",
+                "image": "https://i.ibb.co/RyBRTJC/S-Rank-Madara.png",
+                "level": 148,
+                "health": 42500,
+                "power": 1800,
+                "xpAward": 1000,
+                "ryoAward": 900,
+                "description": "Madara Uchiha was the legendary leader of the Uchiha clan. He founded Konohagakure alongside his childhood friend and rival, Hashirama Senju, with the intention of beginning an era of peace. When the two couldn't agree on how to achieve that peace, they fought for control of the village, a conflict which ended in Madara's death. Madara, however, rewrote his death and went into hiding to work on his own plans. Unable to complete it in his natural life, he entrusted his knowledge and plans to Obito shortly before his actual death. Years later, Madara would be revived, only to see his plans foiled and ultimately, and finally, realising the error of his ways and making amends with Hashirama before his final death."
+            }
+
+        ]
+    },
+    "game": {
+        "data": [
+            {
+                "answers": [
+                    "naruto",
+                    "naruto uzumaki"
+                ],
+                "image": "https://i.ibb.co/zxnt0Jn/Game-Char-1.png"
+            },
+            {
+                "answers": [
+                    "sasuke",
+                    "sasuke uchiha"
+                ],
+                "image": "https://i.ibb.co/YcZNtZr/Game-Char-2.png"
+            },
+            {
+                "answers": [
+                    "sakura",
+                    "sakura haruno"
+                ],
+                "image": "https://i.ibb.co/h2BCtXx/Game-Char-3.png"
+            },
+            {
+                "answers": [
+                    "shikamaru",
+                    "shikamaru nara"
+                ],
+                "image": "https://i.ibb.co/sCWFSXj/Game-Char-4.png"
+            },
+            {
+                "answers": [
+                    "choji",
+                    "choji akimichi"
+                ],
+                "image": "https://i.ibb.co/mcpP6qN/Game-Char-5.png"
+            },
+            {
+                "answers": [
+                    "ino",
+                    "ino yamanaka"
+                ],
+                "image": "https://i.ibb.co/7C7BMTS/Game-Char-6.png"
+            },
+            {
+                "answers": [
+                    "kiba",
+                    "kiba inuzuka"
+                ],
+                "image": "https://i.ibb.co/5hbG645/Game-Char-7.png"
+            },
+            {
+                "answers": [
+                    "shino",
+                    "shino aburame"
+                ],
+                "image": "https://i.ibb.co/MRkSNqc/Game-Char-8.png"
+            },
+            {
+                "answers": [
+                    "hinata",
+                    "hinata hyuga"
+                ],
+                "image": "https://i.ibb.co/XtdSG20/Game-Char-9.png"
+            },
+            {
+                "answers": [
+                    "neji",
+                    "neji hyuga"
+                ],
+                "image": "https://i.ibb.co/JzLHKNM/Game-Char-10.png"
+            },
+            {
+                "answers": [
+                    "lee",
+                    "rock lee"
+                ],
+                "image": "https://i.ibb.co/KXF9PYC/Game-Char-11.png"
+            },
+            {
+                "answers": [
+                    "tenten"
+                ],
+                "image": "https://i.ibb.co/fxhcVR7/Game-Char-12.png"
+            },
+            {
+                "answers": [
+                    "gaara"
+                ],
+                "image": "https://i.ibb.co/ZXrbh9N/Game-Char-13.png"
+            },
+            {
+                "answers": [
+                    "temari"
+                ],
+                "image": "https://i.ibb.co/ZzDLSPM/Game-Char-14.png"
+            },
+            {
+                "answers": [
+                    "kankuro"
+                ],
+                "image": "https://i.ibb.co/DbByyJj/Game-Char-15.png"
+            },
+            {
+                "answers": [
+                    "kakashi",
+                    "kakashi hatake"
+                ],
+                "image": "https://i.ibb.co/7YbQN16/Game-Char-16.png"
+            },
+            {
+                "answers": [
+                    "asuma",
+                    "asuma sarutobi"
+                ],
+                "image": "https://i.ibb.co/RQcT2m1/Game-Char-17.png"
+            },
+            {
+                "answers": [
+                    "kurenai",
+                    "kurenai yuhi"
+                ],
+                "image": "https://i.ibb.co/TbVDbqQ/Game-Char-18.png"
+            },
+            {
+                "answers": [
+                    "guy",
+                    "might guy"
+                ],
+                "image": "https://i.ibb.co/svWkH5y/Game-Char-19.png"
+            },
+            {
+                "answers": [
+                    "jiraiya"
+                ],
+                "image": "https://i.ibb.co/b1wMSHV/Game-Char-20.png"
+            },
+            {
+                "answers": [
+                    "tsunade"
+                ],
+                "image": "https://i.ibb.co/kqkqTpD/Game-Char-21.png"
+            },
+            {
+                "answers": [
+                    "orochimaru"
+                ],
+                "image": "https://i.ibb.co/Z2n9n5f/Game-Char-22.png"
+            },
+            {
+                "answers": [
+                    "hashirama",
+                    "hashirama senju"
+                ],
+                "image": "https://i.ibb.co/BBXnbrG/Game-Char-23.png"
+            },
+            {
+                "answers": [
+                    "tobirama",
+                    "tobirama senju"
+                ],
+                "image": "https://i.ibb.co/kHBQJCr/Game-Char-24.png"
+            },
+            {
+                "answers": [
+                    "hiruzen",
+                    "hiruzen sarutobi"
+                ],
+                "image": "https://i.ibb.co/8zw42MH/Game-Char-25.png"
+            },
+            {
+                "answers": [
+                    "minato",
+                    "minato namikaze"
+                ],
+                "image": "https://i.ibb.co/VwH4S4p/Game-Char-26.png"
+            },
+            {
+                "answers": [
+                    "madara",
+                    "madara uchiha"
+                ],
+                "image": "https://i.ibb.co/r29W9pZ/Game-Char-27.png"
+            },
+            {
+                "answers": [
+                    "deidara"
+                ],
+                "image": "https://i.ibb.co/wr7x5rT/Game-Char-28.png"
+            },
+            {
+                "answers": [
+                    "sasori"
+                ],
+                "image": "https://i.ibb.co/LC6ZrhK/Game-Char-29.png"
+            },
+            {
+                "answers": [
+                    "itachi",
+                    "itachi uchiha"
+                ],
+                "image": "https://i.ibb.co/72TKJqP/Game-Char-30.png"
+            },
+            {
+                "answers": [
+                    "kisame",
+                    "kisame hoshigaki"
+                ],
+                "image": "https://i.ibb.co/wRdPWbD/Game-Char-31.png"
+            },
+            {
+                "answers": [
+                    "hidan"
+                ],
+                "image": "https://i.ibb.co/Xp940Gd/Game-Char-32.png"
+            },
+            {
+                "answers": [
+                    "kakuzu"
+                ],
+                "image": "https://i.ibb.co/tQWFw4n/Game-Char-33.png"
+            },
+            {
+                "answers": [
+                    "tobi"
+                ],
+                "image": "https://i.ibb.co/p35SkSz/Game-Char-34.png"
+            },
+            {
+                "answers": [
+                    "konan"
+                ],
+                "image": "https://i.ibb.co/BLTW5gM/Game-Char-35.png"
+            },
+            {
+                "answers": [
+                    "yahiko"
+                ],
+                "image": "https://i.ibb.co/72pd6Ps/Game-Char-36.png"
+            },
+            {
+                "answers": [
+                    "nagato"
+                ],
+                "image": "https://i.ibb.co/MC7fBtp/Game-Char-37.png"
+            },
+            {
+                "answers": [
+                    "suigetsu",
+                    "suigetsu hozuki"
+                ],
+                "image": "https://i.ibb.co/nfmM7fH/Game-Char-38.png"
+            },
+            {
+                "answers": [
+                    "jugo"
+                ],
+                "image": "https://i.ibb.co/HYjsTHL/Game-Char-39.png"
+            },
+            {
+                "answers": [
+                    "karin",
+                    "karin uzumaki"
+                ],
+                "image": "https://i.ibb.co/dpJLdbq/Game-Char-40.png"
+            },
+            {
+                "answers": [
+                    "hagoromo",
+                    "hagoromo otsutsuki"
+                ],
+                "image": "https://i.ibb.co/kcz4sn4/Game-Char-41.png"
+            },
+            {
+                "answers": [
+                    "indra",
+                    "indra otsutsuki"
+                ],
+                "image": "https://i.ibb.co/DtDGR9C/Game-Char-42.png"
+            },
+            {
+                "answers": [
+                    "asura",
+                    "asura otsutsuki"
+                ],
+                "image": "https://i.ibb.co/px7wF4d/Game-Char-43.png"
+            },
+            {
+                "answers": [
+                    "kaguya",
+                    "kaguya otsutsuki"
+                ],
+                "image": "https://i.ibb.co/KbRh1Cy/Game-Char-44.png"
+            },
+            {
+                "answers": [
+                    "a"
+                ],
+                "image": "https://i.ibb.co/f8vCSxw/Game-Char-45.png"
+            },
+            {
+                "answers": [
+                    "mei",
+                    "mei terumi"
+                ],
+                "image": "https://i.ibb.co/C0BBgW3/Game-Char-46.png"
+            },
+            {
+                "answers": [
+                    "onoki"
+                ],
+                "image": "https://i.ibb.co/m53n1Rw/Game-Char-47.png"
+            },
+            {
+                "answers": [
+                    "iruka",
+                    "iruka umino"
+                ],
+                "image": "https://i.ibb.co/MMTpkQC/Game-Char-48.png"
+            },
+            {
+                "answers": [
+                    "haku"
+                ],
+                "image": "https://i.ibb.co/N6fFHhg/Game-Char-49.png"
+            },
+            {
+                "answers": [
+                    "zabuza",
+                    "zabuza momochi"
+                ],
+                "image": "https://i.ibb.co/GMVFMdf/Game-Char-50.png"
+            }
+        ]
+    }
+}

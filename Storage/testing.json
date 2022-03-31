@@ -1,0 +1,42 @@
+{
+    "arank": 0,
+    "brank": 21,
+    "crank": 111,
+    "critical": 10,
+    "defeatedenemies": [
+        "Gato",
+        "Mizuki",
+        "Zori",
+        "Waraji",
+        "Shigure",
+        "Kagari",
+        "Mubi",
+        "Gozu",
+        "Meizu",
+        "Oboro",
+        "Kin",
+        "Zaku",
+        "Dosu",
+        "Jirobo",
+        "Tayuya",
+        "Sakon",
+        "Kidomaru",
+        "Kabuto"
+    ],
+    "drank": 174,
+    "experience": 114247,
+    "health": 1383,
+    "level": 41,
+    "missionstatus": "off",
+    "mysterybox": 0,
+    "power": 343,
+    "rank": "B",
+    "srank": 0,
+    "ssrank": 0,
+    "train": 2495,
+    "weapon": "bladed claws",
+    "weaponinventory": [
+        "shuriken",
+        "bladed claws"
+    ]
+}
