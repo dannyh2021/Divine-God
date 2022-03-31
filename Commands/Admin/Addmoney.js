@@ -2,6 +2,8 @@ const Discord = require('discord.js')
 
 module.exports.run = async (bot, message, args) => 
 {
+    let user = message.mentions.members.first()
+    let amount = args[1]
 
     if (!user)
         return message.channel.send(bot.failEmbed(`❌ You must ping a user to add ryo to.`, message.author))
